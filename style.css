@@ -1,0 +1,297 @@
+.navbar {
+    margin: 0 7rem;
+    text-align: left;
+}
+
+.navbar-nav {
+    font-family: "latoHeavy";
+    font-size: 1.1rem;
+}
+
+.nav-item {
+    padding: 0 2px;
+}
+
+.navbar-brand .logo {
+    width: 10vh;
+}
+
+.container-fluid {
+    padding: 0 4rem;
+    margin-bottom: 30px;
+}
+
+.headerText {
+    text-align: left;
+    padding: 150px 4rem 0 3rem;
+    line-height: 1.5;
+    font-family: 'latoSemibold';
+}
+
+.grean {
+    color: #83F52C;
+}
+
+.headerText h2 {
+    color: #212121;
+}
+
+.headerText h3 {
+    color: #757575;
+    padding: 0 4.9rem 0 0;
+}
+
+.headerText h5 {
+    color: #FF5252;
+    padding: 10px 0 10px;
+    margin-top: 100px;
+}
+
+.headerText img {
+    width: 10rem;
+    display: inline-block;
+    margin: 3px;
+}
+
+.headerText img:hover {
+    cursor: pointer;
+}
+
+.first {
+    width: 100%;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    padding-top: 10px;
+    margin: 0;
+}
+
+#description {
+    background-color: #FF2027;
+    color: white;
+    text-align: center;
+    padding: 120px 8rem 150px;
+    line-height: 3.5;
+    font-family: 'latoSemibold';
+}
+
+#description h3 {
+    margin-bottom: 4rem;
+}
+
+#description h5 {
+    line-height: 1.5;
+}
+
+#features {
+    text-align: center;
+    padding: 4.5rem 4.5rem;
+    font-family: 'latoHeavy'
+}
+
+.second {
+    width: 100%;
+}
+
+.feature-text {
+    margin: 180px 50px;
+    text-align: left;
+    color: #212121;
+    font-family: 'latoSemibold'
+}
+
+.feature-text h4 {
+    color: #757575;
+}
+
+.feature-list {
+    color: #FF2027;
+    padding-top: 50px;
+}
+
+.feature-list span {
+    padding: 5px 0;
+    line-height: 2.5;
+    vertical-align: super;
+}
+
+.feature-list i {
+    color: #83F52C;
+    font-size: 2rem;
+    padding: 15px;
+}
+
+.firsttxt {
+    background-color: #FF2027;
+    color: white;
+    padding: 100px 120px;
+    line-height: 1.5;
+    height: 100%;
+}
+
+.persona-btn {
+    margin: 1rem;
+    position: absolute;
+    right: 6rem;
+    background-color: white;
+    font-family: "latoSemibold";
+    border: none;
+    border-radius: 3px;
+    height: 30px;
+    width: 80px;
+}
+
+.txt h4 {
+    color: #212121;
+    font-size: 1.3rem;
+    font-family: "latoBlack";
+}
+
+.txt h1 {
+    opacity: .7;
+    font-size: 5rem;
+    font-family: "latoBlackIta";
+    line-height: 1;
+}
+
+.imagebox1 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.third {
+    width: 75%;
+    padding: 0;
+}
+
+.forth {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    size: 10%;
+}
+
+.secondtxt {
+    background-color: #83F52C;
+    color: white;
+    padding: 100px 120px;
+    line-height: 1.5;
+    margin: 0;
+    height: 100%;
+}
+
+.thirdtxt {
+    background-color: #FF5252;
+    color: white;
+    padding: 100px 120px;
+    line-height: 1.5;
+    margin: 0;
+    height: 100%;
+}
+
+.col-lg-6 {
+    margin: 0;
+    padding: 0;
+}
+
+#footer {
+    padding: 4.5rem 8rem 1rem;
+    background-color: #212121;
+    color: white;
+    text-align: center;
+}
+
+#footer img {
+    width: 170px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#footer img:hover {
+    cursor: pointer;
+}
+
+.footerbtn {
+    margin: 0 0 0 12rem;
+}
+
+.footertxt {
+    text-align: left;
+    margin: 20px 0 80px;
+}
+
+.midifi {
+    color: #FF2027;
+}
+
+@media(max-width:992px) {
+    .navbar {
+        margin: 0;
+    }
+    .headerText h3 {
+        padding: 0;
+    }
+    .container-fluid {
+        padding: 0;
+    }
+    .headerText img {
+        margin: 20px 0 30px;
+        width: 80%;
+    }
+    .first {
+        margin-top: 30px;
+        width: 100%;
+    }
+    #description {
+        padding: 90px 2rem 120px;
+    }
+    #features {
+        padding: 3.5rem 2.5rem;
+    }
+    .feature-text {
+        margin: 50px 0;
+    }
+    .footertxt {
+        text-align: center;
+        margin: 20px 0 20px;
+    }
+    .footerbtn {
+        margin: 20px;
+    }
+    #footer {
+        padding: 4.5rem 4rem 1rem;
+    }
+    #footer img {
+        width: 60%;
+    }
+}
+
+@font-face {
+    font-family: latoHeavy;
+    src: url("./pic/FONT/Lato-Heavy.ttf");
+}
+
+@font-face {
+    font-family: latoBlack;
+    src: url("./pic/FONT/Lato-Black.ttf");
+}
+
+@font-face {
+    font-family: latoMeduim;
+    src: url("./pic/FONT/Lato-Medium.ttf");
+}
+
+@font-face {
+    font-family: latoLight;
+    src: url("./pic/FONT/Lato-Light.ttf");
+}
+
+@font-face {
+    font-family: latoSemibold;
+    src: url("./pic/FONT/Lato-Semibold.ttf");
+}
+
+@font-face {
+    font-family: latoBlackIta;
+    src: url("./pic/FONT/Lato-BlackItalic.ttf");
+}
